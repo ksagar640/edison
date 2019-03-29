@@ -1,0 +1,29 @@
+<h1> Enter Data For a New User </h1>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>NewUserData_Form</title>
+</head>
+<body>
+	<form action="/form_submit" method="POST" accept-charset="utf-8">
+		<input type="text" name="user_id" placeholder="Enter the user id"> 						<br>
+		<input type="text" name="user_name" placeholder="Enter Name">							<br>
+		<input type="text" name="user_address" placeholder="Enter Address">  					<br>
+		<input type="text" name="user_phone" placeholder="Enter Phone Number">  				<br>
+		<input type="text" name="user_adharId" placeholder="Enter Adhar Id (Without space)">  	<br>
+		<input type="text" name="user_panId" placeholder="Enter Pan id(optional)">   			<br>
+		<input type="text" name="user_battery_id" placeholder="Enter Battery Id given to User"> <br>
+		<input type="Submit">
+	</form>
+
+
+
+	<h1> Enter to Add Battery </h1>
+	<form action="/battery_form_submit" method="POST" accept-charset="utf-8">
+		<input type="text" name="new_battery_id" placeholder="Enter the Battery ID"> <br>
+		<input type="Submit"> 
+	</form>
+</body>
+
+
+</html>
